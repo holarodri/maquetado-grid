@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(2, 1fr);
+  grid-template-areas: "header header" "main aside" "footer footer";
+}
+body header {
+  background-color: aquamarine;
+  grid-area: header;
+}
+body main {
+  background-color: brown;
+  grid-area: main;
+}
+body aside {
+  background-color: antiquewhite;
+  grid-area: aside;
+}
+body footer {
+  background-color: blueviolet;
+  grid-area: footer;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template: 100px 100px/100px 100px 100px;
+  gap: 5px;
+}
+.container .box {
+  background-color: aqua;
+}/*# sourceMappingURL=grid_styles.css.map */
